@@ -1,164 +1,207 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Theoretical Physicist",
-    "email": "einstein@example.com",
-    "phone": "",
-    "url": "https://example.github.io",
-    "summary": "Theoretical physicist who developed the theory of relativity. Nobel Prize Laureate in Physics (1921). Known for mass-energy equivalence E = mc².",
-    "location": {
-      "address": "Einstein Drive",
-      "postalCode": "08540",
-      "city": "Princeton",
-      "countryCode": "US",
-      "region": "New Jersey"
-    },
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "example",
-        "url": "https://github.com/example"
-      }
-    ]
+    "name": "Yiyang (Roy) Huang",
+    "label": "Applied AI Engineer",
+    "email": "royhtech@gmail.com",
+    "url": "https://www.r0y.tech/",
+    "summary": "Software Design Sr. Engineer at Delta Electronics, focusing on Applied AI. My work and interests include LLM applications, RAG, AI agents, retrieval systems, and AI-powered software.",
+    "profiles": []
   },
+
   "education": [
     {
-      "institution": "University of Zurich",
-      "url": "https://www.uzh.ch",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
+      "institution": "National Taiwan University",
+      "url": "https://www.ntu.edu.tw/",
+      "area": "Computer Science and Information Engineering",
+      "studyType": "Master's Degree",
+      "startDate": "2021-09-01",
+      "endDate": "2024-08-01",
       "courses": []
     },
     {
-      "institution": "ETH Zurich",
-      "url": "https://ethz.ch",
-      "area": "Mathematics and Physics",
-      "studyType": "Teaching Diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
+      "institution": "Tunghai University",
+      "url": "https://www.thu.edu.tw/",
+      "area": "Computer Science",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2017-09-01",
+      "endDate": "2021-06-01",
+      "score": "Ranked 1st",
+      "courses": []
+    },
+    {
+      "institution": "Sun Yat-sen University",
+      "url": "https://www.sysu.edu.cn/",
+      "area": "Software Engineering",
+      "studyType": "Exchange Program",
+      "startDate": "2019-02-01",
+      "endDate": "2019-07-01",
       "courses": []
     }
   ],
+
   "work": [
     {
-      "name": "Institute for Advanced Study",
-      "position": "Professor",
-      "url": "https://www.ias.edu",
-      "startDate": "1933-01-01",
+      "name": "Delta Electronics",
+      "url": "https://www.deltaww.com/",
+      "position": "Software Design Sr. Engineer",
+      "startDate": "",
       "endDate": "",
-      "summary": "Conducted research on unified field theory and contributed to foundational debates in quantum mechanics.",
+      "summary": "Focused on Applied AI and the development of practical AI-powered software systems.",
       "highlights": [
-        "Developed unified field theory research program",
-        "Mentored physicists and mathematicians",
-        "Contributed to quantum mechanics foundations debate"
+        "Develop and integrate LLM-based applications for practical software workflows",
+        "Work with RAG, retrieval systems, and AI agent architectures",
+        "Design backend components and data pipelines for AI applications",
+        "Evaluate and integrate emerging LLM and open-source AI technologies"
       ]
     },
     {
-      "name": "University of Berlin",
-      "position": "Professor and Director, Kaiser Wilhelm Institute",
-      "startDate": "1914-01-01",
-      "endDate": "1933-01-01",
-      "summary": "Developed general theory of relativity. Awarded Nobel Prize in Physics 1921.",
+      "name": "MJ Health Research Foundation & National Taiwan University MIRLab",
+      "position": "Machine Learning Researcher",
+      "startDate": "2022-10-01",
+      "endDate": "2024-08-01",
+      "summary": "Prediction of Biological Age Using Machine Learning.",
       "highlights": [
-        "Completed general theory of relativity (1915)",
-        "Predicted gravitational waves and black holes",
-        "Nobel Prize in Physics, 1921"
+        "Led machine learning model development for biological age prediction using large-scale health screening data",
+        "Applied MICE to handle missing values in large datasets",
+        "Built predictive models including LightGBM for lifespan and biological age estimation",
+        "Used SHAP to interpret model predictions and analyze feature importance"
       ]
     },
     {
-      "name": "Swiss Patent Office",
-      "position": "Technical Expert",
-      "startDate": "1902-01-01",
-      "endDate": "1909-01-01",
-      "summary": "Evaluated patent applications while producing four landmark physics papers in 1905.",
+      "name": "National Taiwan University Hospital & National Taiwan University MIRLab",
+      "position": "Machine Learning Researcher",
+      "startDate": "2022-11-01",
+      "endDate": "2023-06-01",
+      "summary": "Detecting Intradialytic Hypotension Using Machine Learning.",
       "highlights": [
-        "Published special relativity paper (1905)",
-        "Published photoelectric effect paper, later basis of 1921 Nobel Prize",
-        "Published Brownian motion paper",
-        "Derived E = mc²"
+        "Worked with large-scale hemodialysis clinical data",
+        "Participated in data preprocessing and missing-value imputation using MICE",
+        "Contributed to anomaly detection and predictive modeling",
+        "Participated in technical discussions with clinicians and prepared research reports"
       ]
     }
   ],
+
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-09",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "For services to theoretical physics, and especially for his discovery of the law of the photoelectric effect."
+      "title": "Mainland Chinese Graduate Student Scholarship",
+      "awarder": "National Taiwan University",
+      "summary": "Awarded for two years."
     },
     {
-      "title": "Copley Medal",
-      "date": "1925-11-30",
-      "awarder": "Royal Society"
+      "title": "Certificate of Academic Honors",
+      "awarder": "Tunghai University",
+      "summary": "Awarded for three years; ranked first."
     },
     {
-      "title": "Max Planck Medal",
-      "date": "1929-01-01",
-      "awarder": "German Physical Society"
+      "title": "Academic Achievement Award",
+      "awarder": "Tunghai University",
+      "summary": "Awarded for three years."
+    },
+    {
+      "title": "Mainland Chinese Student Scholarship",
+      "awarder": "Tunghai University",
+      "summary": "Awarded for three years."
     }
   ],
+
   "publications": [
     {
-      "name": "On the Electrodynamics of Moving Bodies",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://doi.org/10.1002/andp.19053221004",
-      "summary": "The special theory of relativity."
-    },
-    {
-      "name": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
-      "publisher": "Physical Review",
-      "releaseDate": "1935-05-15",
-      "url": "https://doi.org/10.1103/PhysRev.47.777",
-      "summary": "The EPR paradox paper, co-authored with Podolsky and Rosen."
+      "name": "Prediction of biological age using machine learning",
+      "publisher": "PLOS ONE",
+      "releaseDate": "2025-01-01",
+      "url": "https://doi.org/10.1371/journal.pone.0330184",
+      "summary": "Zhang K, Chen P-C, Huang Y, Tzou S-J, Wu S-T, Chu T-W, et al. PLOS ONE 20(9): e0330184."
     }
   ],
+
   "skills": [
     {
-      "name": "Theoretical Physics",
-      "level": "Master",
+      "name": "Applied AI",
       "keywords": [
-        "General Relativity",
-        "Special Relativity",
-        "Quantum Mechanics",
-        "Statistical Mechanics"
+        "Large Language Models",
+        "LLM Applications",
+        "RAG",
+        "AI Agents",
+        "Retrieval Systems",
+        "AI Application Development"
       ]
     },
     {
-      "name": "Mathematics",
-      "keywords": ["Differential Geometry", "Tensor Calculus", "Riemannian Geometry"]
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Go",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "LightGBM",
+        "XGBoost",
+        "Random Forest",
+        "Support Vector Machine",
+        "Anomaly Detection",
+        "Feature Engineering",
+        "Model Evaluation"
+      ]
+    },
+    {
+      "name": "Data & ML Tools",
+      "keywords": [
+        "pandas",
+        "NumPy",
+        "SciPy",
+        "scikit-learn",
+        "SHAP",
+        "MICE"
+      ]
+    },
+    {
+      "name": "Software & Infrastructure",
+      "keywords": [
+        "Git",
+        "Linux",
+        "Containers",
+        "REST APIs",
+        "Backend Development"
+      ]
     }
   ],
+
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
+      "language": "Mandarin",
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "French",
-      "fluency": "Proficient"
+      "fluency": "Professional Proficiency"
     }
   ],
+
   "interests": [
     {
-      "name": "Music",
-      "keywords": ["Violin", "Mozart", "Bach"]
+      "name": "Artificial Intelligence",
+      "keywords": [
+        "LLMs",
+        "AI Agents",
+        "Open-source AI",
+        "AI Infrastructure"
+      ]
     },
     {
-      "name": "Philosophy",
-      "keywords": ["Spinoza", "Mach", "Kant"]
+      "name": "Basketball",
+      "keywords": []
     }
   ],
+
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
     "version": "v1.0.0",
-    "lastModified": "2024-01-01T00:00:00Z"
+    "lastModified": "2026-10-07T00:00:00Z"
   }
 }

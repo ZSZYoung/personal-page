@@ -201,7 +201,7 @@ if (format === 'rendercv' && rc) {
                       <CVEntry
                         title={e.name ?? ''}
                         subtitle={e.issuer}
-                        dates={formatCVDate(e.date)}
+                        dates={formatDateRange(e.start_date, e.end_date)}
                         highlights={e.highlights}
                       />
                     ))}

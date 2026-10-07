@@ -35,7 +35,7 @@ export const site = {
   title: 'Roy (Yiyang) Huang',
 
   /** Site description. Used in meta tags. */
-  description: 'A simple, clean, and responsive Astro template for academics. Powered by as-folio.',
+  description: "Roy's personal website.",
 
   /** Language code for the site. */
   lang: 'en',
@@ -50,24 +50,21 @@ export const site = {
     email: 'royhtech@gmail.com',
 
     /** Path to profile photo. Place image in public/assets/img/. */
-    avatar: '/assets/img/prof_pic.jpg',
+    avatar: '/assets/img/avatar.jpg',
 
     /**
      * Subtitle below your name on the about page.
      * HTML is supported.
      */
-    subtitle: `Theoretical Physicist
-      &nbsp;·&nbsp;
-      <a href="https://en.wikipedia.org/wiki/Institute_for_Advanced_Study">Institute for Advanced Study</a>,
-      Princeton`,
+    subtitle: `Applied AI Engineer`,
 
     /**
      * Address block below profile photo.
      * HTML is supported.
      */
-    moreInfo: `<p>Institute for Advanced Study</p>
-      <p>Einstein Drive</p>
-      <p>Princeton, NJ 08540</p>`,
+    // moreInfo: `<p>Institute for Advanced Study</p>
+    //   <p>Einstein Drive</p>
+    //   <p>Princeton, NJ 08540</p>`,
   },
 
   // ─── Social links ──────────────────────────────────────────────────────────
@@ -81,25 +78,23 @@ export const site = {
   socials: {
     email: 'royhtech@gmail.com',
     x_username: undefined as string | undefined,
-    linkedin_username: undefined as string | undefined,
-    github_username: undefined as string | undefined,
-    gitlab_username: undefined as string | undefined,
-    /** Google Scholar user ID — the part after user= in your Scholar URL */
-    scholar_userid: 'qc6CJjYAAAAJ',
-    orcid_id: undefined as string | undefined,
-    /** Inspire HEP author ID */
-    inspire_id: '1010907',
-    researchgate_username: undefined as string | undefined,
-    arxiv_id: undefined as string | undefined,
-    youtube_id: undefined as string | undefined,
-    instagram_username: undefined as string | undefined,
-    mastodon_url: undefined as string | undefined,
-    bluesky_handle: undefined as string | undefined,
-    medium_username: undefined as string | undefined,
-    /** Path to CV PDF in public/assets/pdf/ */
-    cv_pdf: '/assets/pdf/example_pdf.pdf',
-    /** Show RSS icon in social links */
-    rss_icon: true,
+  linkedin_username: undefined as string | undefined,
+  github_username: 'ZSZYoung',
+  gitlab_username: undefined as string | undefined,
+
+  scholar_userid: undefined as string | undefined,
+  orcid_id: undefined as string | undefined,
+  inspire_id: undefined as string | undefined,
+  researchgate_username: undefined as string | undefined,
+  arxiv_id: undefined as string | undefined,
+  youtube_id: undefined as string | undefined,
+  instagram_username: undefined as string | undefined,
+  mastodon_url: undefined as string | undefined,
+  bluesky_handle: undefined as string | undefined,
+  medium_username: undefined as string | undefined,
+
+  cv_pdf: undefined as string | undefined,
+  rss_icon: false,
   },
 
   // ─── Navigation ────────────────────────────────────────────────────────────
@@ -118,19 +113,18 @@ export const site = {
      */
     items: [
       { label: 'about', href: '/' },
-      { label: 'blog', href: '/blog/' },
-      { label: 'publications', href: '/publications/' },
+      {  label: 'blog', href: 'https://www.r0y.tech/' },
       { label: 'projects', href: '/projects/' },
-      { label: 'repositories', href: '/repositories/' },
       { label: 'cv', href: '/cv/' },
-      {
-        label: 'more',
-        children: [
-          { label: 'teaching', href: '/teaching/' },
-          { label: 'people', href: '/people/' },
-          { label: 'books', href: '/books/' },
-        ],
-      },
+      { label: 'repositories', href: '/repositories/' },
+      // {
+      //   label: 'more',
+      //   children: [
+      //     // { label: 'teaching', href: '/teaching/' },
+      //     // { label: 'people', href: '/people/' },
+      //     // { label: 'books', href: '/books/' },
+      //   ],
+      // },
     ] as NavItem[],
   },
 
@@ -141,10 +135,9 @@ export const site = {
      * Text shown in footer. HTML is supported.
      * Leave empty string to hide.
      */
-    text: `Powered by <a href="https://github.com/dadangnh/as-folio" target="_blank" rel="noopener noreferrer">as-folio</a>.
-      Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.`,
+    text: `Powered by <a href="https://github.com/dadangnh/as-folio" target="_blank" rel="noopener noreferrer">as-folio</a>`,
     /** Show "Last updated" timestamp in footer. */
-    lastUpdated: false,
+    lastUpdated: true,
     /** Path to impressum/legal page (EU GDPR). Leave undefined to hide. */
     impressum: undefined as string | undefined,
     /**
@@ -164,7 +157,7 @@ export const site = {
      * 'rendercv' → reads src/data/cv.yml (RenderCV YAML format)
      * 'jsonresume' → reads src/data/resume.json (JSONResume format)
      */
-    format: 'rendercv' as 'rendercv' | 'jsonresume',
+    format: 'rendercv' ,
     /** Path to CV PDF for the download button in public/assets/pdf/. */
     pdfPath: '/assets/pdf/example_pdf.pdf',
   },
@@ -214,14 +207,14 @@ export const site = {
 
   latestPosts: {
     /** Show latest blog posts section on the about page. */
-    enabled: true,
+    enabled: false,
     scrollable: true,
     limit: 3 as number | undefined,
   },
 
   selectedPapers: {
     /** Show selected publications section on the about page. */
-    enabled: true,
+    enabled: false,
   },
 
   // ─── Features ─────────────────────────────────────────────────────────────

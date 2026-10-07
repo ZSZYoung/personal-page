@@ -1,129 +1,133 @@
-# RenderCV YAML format — https://docs.rendercv.com/
+# RenderCV YAML format
 # Used by the CV page when site.cv.format is 'rendercv'.
 
 cv:
-  name: Albert Einstein
-  location: Princeton, NJ
-  email: einstein@example.com
-  phone: tel:+1-000-000-0000
-  website: https://example.github.io
-  summary: A German-born theoretical physicist widely regarded as one of the greatest scientists of all time. Best known for developing the theory of relativity, the most important pillar along with quantum mechanics of modern physics.
+  name: Yiyang (Roy) Huang
+  location: Taiwan
+  email: royhtech@gmail.com
+  website: https://www.r0y.tech/
+  summary: >
+    Software Design Sr. Engineer at Delta Electronics, focusing on Applied AI.
+    Interested in LLM applications, RAG, AI agents,
+    and practical AI-powered software.
+
   social_networks:
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: ZSZYoung
 
   sections:
     education:
-      - institution: University of Zurich
-        area: Physics
-        degree: PhD
-        start_date: 1900
-        end_date: 1905
-        highlights:
-          - 'Thesis: "A New Determination of Molecular Dimensions"'
-          - 'Supervisor: Alfred Kleiner'
+      - institution: National Taiwan University
+        area: Computer Science and Information Engineering
+        degree: Master's Degree
+        start_date: 2021-09
+        end_date: 2024-08
 
-      - institution: ETH Zurich
-        area: Mathematics and Physics Teaching Diploma
-        degree: Diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Tunghai University
+        area: Computer Science
+        degree: Bachelor's Degree
+        start_date: 2017-09
+        end_date: 2021-06
+        highlights:
+          - Ranked 1st in the department
+
+      - institution: Sun Yat-sen University
+        area: Software Engineering
+        degree: Exchange Program
+        start_date: 2019-02
+        end_date: 2019-07
 
     experience:
-      - company: Institute for Advanced Study
-        position: Professor
-        location: Princeton, NJ
-        start_date: 1933
+      - company: Delta Electronics
+        position: Software Design Sr. Engineer
+        location: Taiwan
+        start_date: 2026
         end_date: present
         highlights:
-          - Developed unified field theory research program
-          - Mentored generations of physicists and mathematicians
-          - Contributed to foundations of quantum mechanics debates
+          - Focus on Applied AI and LLM-based application development
+          - Develop RAG, retrieval, and AI agent systems
+          - Design backend components and data pipelines for AI applications
+          - Evaluate and integrate emerging LLM and open-source AI technologies
 
-      - company: University of Berlin
-        position: Professor and Director
-        location: Berlin, Germany
-        start_date: 1914
-        end_date: 1933
+      - company: MJ Health Research Foundation & National Taiwan University MIRLab
+        position: Machine Learning Researcher
+        location: Taiwan
+        start_date: 2022-10
+        end_date: 2024-08
         highlights:
-          - Developed the general theory of relativity (1915)
-          - Predicted gravitational waves and black holes
-          - Awarded Nobel Prize in Physics (1921)
+          - Led machine learning model development for biological age prediction
+          - Applied MICE for missing-value imputation on large-scale health datasets
+          - Built predictive models including LightGBM
+          - Applied SHAP for model interpretation and feature analysis
 
-      - company: University of Zurich
-        position: Associate Professor
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-      - company: Swiss Patent Office
-        position: Technical Expert (Third Class)
-        location: Bern, Switzerland
-        start_date: 1902
-        end_date: 1909
+      - company: National Taiwan University Hospital & National Taiwan University MIRLab
+        position: Machine Learning Researcher
+        location: Taiwan
+        start_date: 2022-11
+        end_date: 2023-06
         highlights:
-          - Evaluated patent applications while conducting independent research
-          - Published four landmark papers in 1905 (Annus Mirabilis)
+          - Worked on detecting intradialytic hypotension using machine learning
+          - Participated in clinical data preprocessing and missing-value imputation
+          - Contributed to anomaly detection and predictive modeling
+          - Participated in technical discussions with clinicians
 
     publications:
-      - title: 'On the Electrodynamics of Moving Bodies'
+      - title: Prediction of biological age using machine learning
         authors:
-          - Albert Einstein
-        doi: 10.1002/andp.19053221004
-        date: 1905-06
-        journal: Annalen der Physik
-
-      - title: 'Does the Inertia of a Body Depend Upon Its Energy Content?'
-        authors:
-          - Albert Einstein
-        doi: 10.1002/andp.19053231314
-        date: 1905-09
-        journal: Annalen der Physik
-
-      - title: 'Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?'
-        authors:
-          - Albert Einstein
-          - Boris Podolsky
-          - Nathan Rosen
-        doi: 10.1103/PhysRev.47.777
-        date: 1935-05
-        journal: Physical Review
-
-      - title: 'On the General Theory of Relativity'
-        authors:
-          - Albert Einstein
-        date: 1915-11
-        journal: Prussian Academy of Sciences
+          - Zhang K
+          - Chen P-C
+          - Huang Y
+          - Tzou S-J
+          - Wu S-T
+          - Chu T-W
+          - et al.
+        doi: 10.1371/journal.pone.0330184
+        date: 2025
+        journal: PLOS ONE
 
     awards:
-      - name: Nobel Prize in Physics
-        date: '1921'
-        issuer: Royal Swedish Academy of Sciences
+      - name: Mainland Chinese Graduate Student Scholarship
+        start_date: 2022
+        end_date: 2024
+        issuer: National Taiwan University
         highlights:
-          - 'For services to theoretical physics, and especially for his discovery of the law of the photoelectric effect'
+          - Awarded for two years
 
-      - name: Copley Medal
-        date: '1925'
-        issuer: Royal Society
-
-      - name: Max Planck Medal
-        date: '1929'
-        issuer: German Physical Society
+      - name: Certificate of Academic Honors
+        start_date: 2018
+        end_date: 2020
+        issuer: Tunghai University
+        highlights:
+          - Ranked first
+          - Awarded for three years
+          
 
     skills:
-      - label: Theoretical Physics
-        details: General Relativity, Special Relativity, Quantum Mechanics, Statistical Mechanics
-      - label: Mathematics
-        details: Differential Geometry, Tensor Calculus, Riemannian Geometry
+      - label: LLM & Agent Engineering
+        details: RAG, AI Agents, Agentic Workflows, Tool Calling, MCP, Prompt Engineering, Structured Output
+
+      - label: Retrieval & Search
+        details: RAGFlow, WeKnora, Qdrant, pgvector, Embeddings, Reranking
+
+      - label: AI Data Infrastructure
+        details: PostgreSQL, Redis, MinIO / S3, Vector Databases, Structured & Unstructured Data Pipelines
+
+      - label: Programming
+        details: Python, Go, SQL
+
+      - label: Machine Learning
+        details: scikit-learn, LightGBM, XGBoost, Random Forest, SVM, Anomaly Detection, SHAP, MICE
+
+      - label: Data Processing
+        details: pandas, NumPy, SciPy, Data Preprocessing, Feature Engineering
+
+      - label: Infrastructure & Development
+        details: Docker, Podman, Linux, WSL, Git
+
       - label: Languages
-        details: German (native), English (fluent), French (proficient)
+        details: Mandarin (native), English (professional proficiency)
 
     interests:
-      - label: Music
-        details: Violin, Mozart, Bach
-      - label: Philosophy
-        details: Spinoza, Mach, Kant
-      - label: Sailing
-        details: Long Island Sound, Swiss lakes
+      - label: Artificial Intelligence
+        details: LLMs, AI Agents, Open-source AI, AI Infrastructure
+
